@@ -1,0 +1,97 @@
+/*     fuente  */
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&display=swap');
+
+@import "headerNavbar";
+@import "footer";
+@import "especialidades";
+
+
+/*     estilo header  */
+body {
+  background-image: url(/img/fondo.jpg);
+
+ /*header {
+    h1 {
+      .logoDos {
+        height: 400px;
+        width: 100%;
+        background-image: url('../img/Logo\ 2.png');
+        background-size: cover;
+
+        .logoUno {
+          width: 300px;
+          height: 300px;
+          background-image: url('../img/Logo\ 1.png');
+          background-size: contain;
+          border: 1px solid black black;
+          position: absolute;
+          top: 50px;
+          left: 10px;
+          border-radius: 150px;
+          animation-name: animacion;
+          animation-iteration-count: 1;
+          animation-timing-function: ease-in;
+          animation-duration: 2s;
+          animation-delay: 1s;
+        }
+      }
+
+    }
+  }*/
+
+  /*     estilo index */
+  main {
+    font-family: 'Arima', cursive;
+    background-size: cover;
+    font-weight: bold;
+
+    
+  }
+
+  /*     footer  */
+  /*footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+
+    .footerLogo {
+      border: 1px solid rgb(128, 10, 10);
+      width: 85px;
+      height: 85px;
+      margin-left: 47%;
+      margin-top: 30px;
+    }
+  }*/
+}
+
+
+
+
+
+
+
+
+@media (max-width: 670px) {
+  .logoDos {
+    background-image: url('../img/logo\ 2\ mobile.jpg');
+  }
+
+  .logoUno {
+    display: none;
+  }
+}
+
+
+@media (max-width: 850px) {
+  .especialidades {
+    grid-template-areas: "integral""implantes""ortodoncia""endodoncia";
+  }
+
+  .implantes {
+    margin-top: 0%;
+  }
+
+  .menuNavegacion {
+    display: none;
+  }
+}
