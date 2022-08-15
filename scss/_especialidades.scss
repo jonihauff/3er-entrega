@@ -7,6 +7,7 @@
     "integral implantes"
     "ortodoncia endodoncia";
     row-gap: 100px;
+    padding-bottom: 10%;
 
     img {
         width: 300px;
@@ -15,6 +16,7 @@
     img:hover {
         width: 345px;
         height: 345px;
+        transition: all 0.8s;
     }
 
     .integral {
