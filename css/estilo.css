@@ -1,6 +1,13 @@
 @charset "UTF-8";
 /*     fuente  */
 @import url("https://fonts.googleapis.com/css2?family=Arima:wght@300&display=swap");
+body {
+  background-image: url("../img/fondo.jpg"); }
+  body main {
+    font-family: 'Arima', cursive;
+    background-size: cover;
+    font-weight: bold; }
+
 /* Header */
 header h1 .logoDos {
   height: 400px;
@@ -94,13 +101,16 @@ footer {
     height: 450px; }
 
 /*     estilo header  */
-body {
-  background-image: url(/img/fondo.jpg); }
-  body main {
+/*body {
+  background-image: url('../img/fondo.jpg');
+
+  main {
     font-family: 'Arima', cursive;
     background-size: cover;
-    font-weight: bold; }
+    font-weight: bold;
+  }
 
+}*/
 @media (max-width: 670px) {
   .logoDos {
     background-image: url("../img/logo 2 mobile.jpg"); }

@@ -1,14 +1,14 @@
 /*     fuente  */
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&display=swap');
-
+@import "body";
 @import "headerNavbar";
 @import "footer";
 @import "especialidades";
 
 
 /*     estilo header  */
-body {
-  background-image: url(/img/fondo.jpg);
+/*body {
+  background-image: url('../img/fondo.jpg');
 
   main {
     font-family: 'Arima', cursive;
@@ -16,7 +16,7 @@ body {
     font-weight: bold;
   }
 
-}
+}*/
 
 
 
