@@ -4,25 +4,9 @@
 @import "headerNavbar";
 @import "footer";
 @import "especialidades";
-
-
-/*     estilo header  */
-/*body {
-  background-image: url('../img/fondo.jpg');
-
-  main {
-    font-family: 'Arima', cursive;
-    background-size: cover;
-    font-weight: bold;
-  }
-
-}*/
-
-
-
-
-
-
+@import "consultorios";
+@import "contacto";
+@import "dentopedia";
 
 
 @media (max-width: 670px) {

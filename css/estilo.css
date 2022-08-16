@@ -2,11 +2,12 @@
 /*     fuente  */
 @import url("https://fonts.googleapis.com/css2?family=Arima:wght@300&display=swap");
 body {
-  background-image: url("../img/fondo.jpg"); }
+  background-image: url("../img/fondo.jpg");
+  background-attachment: fixed; }
   body main {
-    font-family: 'Arima', cursive;
-    background-size: cover;
-    font-weight: bold; }
+    font-family: 'Arima', 'cursive';
+    font-weight: bold;
+    padding-bottom: 10%; }
 
 /* Header */
 header h1 .logoDos {
@@ -34,13 +35,15 @@ header h1 .logoDos {
 footer {
   color: white;
   background-color: black;
-  text-align: center; }
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 1%; }
   footer .footerLogo {
     border: 1px solid #800a0a;
     width: 85px;
     height: 85px;
     margin-left: 47%;
-    margin-top: 30px; }
+    margin-top: 35px; }
 
 /* especialidades */
 .especialidades {
@@ -100,17 +103,46 @@ footer {
     width: 450px;
     height: 450px; }
 
-/*     estilo header  */
-/*body {
-  background-image: url('../img/fondo.jpg');
+main .consultorios {
+  margin: 2%;
+  text-align: center;
+  font-weight: bold; }
 
-  main {
-    font-family: 'Arima', cursive;
-    background-size: cover;
-    font-weight: bold;
-  }
+main .carousel {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 10%; }
 
-}*/
+.contenidoContacto {
+  text-align: center;
+  margin-top: 5%; }
+  .contenidoContacto p {
+    margin-top: 1%; }
+  .contenidoContacto .medios {
+    margin-top: 3%; }
+  .contenidoContacto .comentarios {
+    display: inline-block;
+    margin-top: 3%;
+    text-align: left; }
+
+/*      dentopedia  */
+.contenidoDentopedia {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10%; }
+  .contenidoDentopedia .cepillo {
+    width: 40%;
+    display: inline-block; }
+  .contenidoDentopedia .dentifrico {
+    width: 40%;
+    display: inline-block; }
+  .contenidoDentopedia .cepillado {
+    width: 40%;
+    display: inline-block; }
+  .contenidoDentopedia .higiene {
+    width: 40%;
+    display: inline-block; }
+
 @media (max-width: 670px) {
   .logoDos {
     background-image: url("../img/logo 2 mobile.jpg"); }
